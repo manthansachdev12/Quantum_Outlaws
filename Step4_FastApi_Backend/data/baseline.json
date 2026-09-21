@@ -1,0 +1,8 @@
+{
+  "repetitions": 50,
+  "shots_per_run": 4096,
+  "noise_probability": 0.01,
+  "mean_deviation_percent": 0.5185546875,
+  "std_deviation_percent": 0.10060963768116819,
+  "threshold_percent": 0.8203836005435046
+}
