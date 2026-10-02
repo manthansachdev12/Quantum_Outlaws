@@ -1,11 +1,9 @@
-# Q-SHIELD
-
-## Quantum-Inspired Cyber Threat Detection for Digital Signature Security
+# Quantum-Inspired Cyber Threat Detection for Digital Signature Security
 
 **Smart India Hackathon 2026 --- SIH26141**\
 **Team: Quantum Outlaws**
 
-Q-SHIELD is a prototype security framework designed to detect suspicious
+This project is a prototype security framework designed to detect suspicious
 activity around **teleportation-based Quantum Digital Signature (QDS)
 verification**.
 
@@ -62,9 +60,9 @@ statistical evidence rather than AI/ML.
 
 ------------------------------------------------------------------------
 
-# 2. What Q-SHIELD Does
+# 2. What the System Does
 
-Q-SHIELD acts as a detection layer around a simulated quantum-signature
+The system acts as a detection layer around a simulated quantum-signature
 verification workflow.
 
 The core idea is:
@@ -92,7 +90,7 @@ Expected quantum behavior
 ```
 
 Instead of asking an AI model to decide whether an event is malicious,
-Q-SHIELD uses observable measurements and explicit mathematical rules.
+the system uses observable measurements and explicit mathematical rules.
 
 This makes the prototype:
 
@@ -190,7 +188,7 @@ contents of one request.
 
 A quantum communication channel may experience abnormal disturbance.
 
-Q-SHIELD establishes a **noise-only calibration baseline** under an
+The system establishes a **noise-only calibration baseline** under an
 expected operating condition.
 
 During a later verification event, the observed measurement distribution
@@ -229,7 +227,7 @@ state**.
 
 A Bell state is an entangled two-qubit state.
 
-Q-SHIELD uses:
+The prototype uses:
 
 $$ |\Phi^+\rangle =
 \frac{|00\rangle + |11\rangle}{\sqrt{2}} $$
@@ -317,7 +315,7 @@ anomaly-detection workflow.
 
 # 6. Pauli Operators and Eigenvalues
 
-Q-SHIELD also uses the three Pauli operators:
+The prototype also uses the three Pauli operators:
 
 $$
 X = \begin{bmatrix}
@@ -438,7 +436,7 @@ $$
 Different measurement bases reveal different properties of a quantum
 state.
 
-Q-SHIELD uses this principle to treat quantum measurements as observable
+The prototype uses this principle to treat quantum measurements as observable
 evidence.
 
 Instead of:
@@ -502,7 +500,7 @@ the expected baseline.
 
 # 10. Statistical Detection
 
-Q-SHIELD does not treat every small measurement variation as an attack.
+The prototype does not treat every small measurement variation as an attack.
 
 Quantum simulations and physical systems can contain noise.
 
@@ -1056,7 +1054,7 @@ Open the telemetry page and show the detection history.
 
 # 20. What This Prototype Demonstrates
 
-Q-SHIELD demonstrates a complete research-to-prototype pipeline:
+This prototype demonstrates a complete research-to-prototype pipeline:
 
 ``` text
 Quantum concept
@@ -1083,7 +1081,7 @@ observable security workflow.
 
 # 21. Important Scope and Limitations
 
-Q-SHIELD is a **controlled prototype and simulation**, not a
+This project is a **controlled prototype and simulation**, not a
 production-ready quantum digital-signature implementation.
 
 In particular:
@@ -1112,7 +1110,7 @@ The central design philosophy is:
 
 > **Measure first. Quantify deviation. Apply explicit rules.**
 
-Q-SHIELD intentionally avoids opaque prediction.
+The system intentionally avoids opaque prediction.
 
 ``` text
 Quantum state
@@ -1135,7 +1133,7 @@ evidence.
 
 # 23. Final Summary
 
-Q-SHIELD is a **quantum-inspired cyber threat detection prototype for
+This project is a **quantum-inspired cyber threat detection prototype for
 digital-signature security**.
 
 It combines:
